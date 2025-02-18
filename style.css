@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+.camera-container {
+    margin-top: 20px;
+}
+
+video {
+    width: 80%;
+    border: 5px solid #4CAF50;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.info {
+    margin-top: 20px;
+    background: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
